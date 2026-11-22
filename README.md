@@ -8,6 +8,7 @@ Roll Call is an editorial field guide to Kolkata's street food: ten stops, what 
 
 ## Live
 
+- Vercel: https://roll-call-alpha-pink.vercel.app
 - GitHub Pages: https://ifazulhq.github.io/roll-call-kolkata/
 - Source: https://github.com/ifazulhq/roll-call-kolkata
 
@@ -75,7 +76,7 @@ Then open http://127.0.0.1:5175/. Any static file server works, for example `npx
 The site is a static bundle with `index.html` at the repository root.
 
 - **GitHub Pages:** deploy from the `main` branch at `/` (the live URL above).
-- **Vercel:** import the repository as an "Other" framework, leave the build command empty and set the output directory to `.`.
+- **Vercel:** the repository is connected to the `ifazulhq/roll-call` project. It builds as an "Other" framework with no build command and the output directory set to `.`, and every push to `main` ships to production.
 
 ## Notes
 
